@@ -1,0 +1,66 @@
+// Define variables
+
+/*
+$myColor: #081b68;
+$space: 10px;
+
+
+.wrap p {
+	padding: $space;
+	margin: $space * 2;
+}
+
+.p-border {
+	border: dotted 3px $myColor;
+}
+
+.p-background {
+	background: rgba($myColor, 0.3);
+}
+
+.p-color {
+	color: $myColor;
+}
+*/
+p {
+	padding: 10px;
+	margin: 10px;
+}
+
+.wrap-first {
+	p {						// This target paragraphs that are inside .wrap-first
+		background: #F66;
+	}
+}
+
+.wrap-second {
+	p {						// This target paragraphs that are inside .wrap-second
+		background: #66F;
+	}
+}
+
+// First define the mixin
+@mixin colorize-paragraph($color) {
+    border: dotted 3px $color;
+    background: rgba($color, 0.3);
+    border-radius: 10px;
+  }
+  
+  p {
+      padding: 10px;
+      margin: 10px;
+  }
+  
+  // Use the mixin with multiple parameters
+  
+  .p-1 {
+      @include colorize-paragraph(red);
+  }
+  
+  .p-2 {
+      @include colorize-paragraph(#1faf35);
+  }
+  
+  .p-3 {
+      @include colorize-paragraph(blue);
+  }

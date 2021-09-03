@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 10%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: line-through;
+}
+
+h2 {
+    font-size: 1em;
+    font-style:oblique;
+    font-weight: 400; 
+    text-align: left;
+    text-decoration:underline;
+}
+
+p {
+    text-align: left;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 200;
+}

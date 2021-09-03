@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.titulo-do-site {
+  color: orangered;
+  font-family: 'manrope', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  position: absolute;
+  right: 36px;
+  top: 30px;
+  padding: 4px;
+}
+
+.itens {
+  font-family: 'manrope', sans-serif;
+  color: yellow;
+  font-weight: bold;
+}
+
+.sec1 {
+  background-color: red;
+  height: 30px;
+  width: 30%;
+}
+
+.sec {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+
+#home {
+  background-color: blue;
+}
+#abour {
+  background-color: red;
+}
+#projects {
+  background-color: green;
+}
+#contacts {
+  background-color: orangered;
+}
+
+img {
+  width: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 3%;
+  z-index: 9;
+  border-radius: 50%;
+}

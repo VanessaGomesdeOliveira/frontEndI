@@ -1,0 +1,25 @@
+/* Selecione todos os links *não* visitados e mude a cor do texto para [darkorange]*/
+a:link {
+    color: darkorange;
+}
+
+
+
+
+
+
+
+/* Selecione todos os *links visitados* e mude a cor do texto para [firebrick]*/
+a:visited {
+    color: firebrick;
+}
+
+
+
+
+
+
+/* Quando o cursor passar em cima dos links mude a cor deles para [maroon]*/
+a:hover {
+    color: maroon;
+}

@@ -1,0 +1,30 @@
+header {
+  background-color: grey; /* essa linka insere uma cor de fundo no menu */
+  padding: 34px; /* essa linha causa um espaçamento interno */
+}
+
+a {
+  text-decoration: none; /* tira os estilos padrões do navegador */
+}
+
+.titulo-da-pagina {
+  font-family: 'manrope', sans-serif; /* insere uma font no texto */
+  color: orangered; /* insere uma cor no texto */
+  font-weight: bold; /* insere um negtrito no texto */
+  font-size: 30px; /* insere um tamanho maior no texto */
+}
+
+.navbar {
+  position: absolute; /* Deixa um alemento solto de forma absoluta na página */
+  right: 28px; /* leva os elementos para a direita */
+  top: 50px; /* ileva os elementos para o topo */
+}
+
+.itens {
+  color: yellow; /* insere uma cor no texto */
+
+  padding: 5px;
+  font-family: 'manrope', sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+}

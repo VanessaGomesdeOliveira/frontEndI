@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: rajdhani ,sans-serif;
+    font-size: 30px;
+    background-color: #0b1e23;
+    color: white;
+}
+
+body {
+    margin: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/*Estiliação do Checkbox */
+
+.checkbox-item {
+
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox-label {
+    cursor: pointer;  
+}
+
+.checkbox-label::before {
+    border: solid 2px #4de4cf;
+    border-radius: 5px;
+    content: '';
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-color: #0b1e23;
+    float: left;
+    margin-right: 10px;
+}
+
+.checkbox:checked + .checkbox-label::before {
+    background-color: #4de4cf;
+}
+

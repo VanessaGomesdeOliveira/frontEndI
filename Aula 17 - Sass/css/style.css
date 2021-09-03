@@ -1,0 +1,59 @@
+/*
+$myColor: #081b68;
+$space: 10px;
+
+
+.wrap p {
+	padding: $space;
+	margin: $space * 2;
+}
+
+.p-border {
+	border: dotted 3px $myColor;
+}
+
+.p-background {
+	background: rgba($myColor, 0.3);
+}
+
+.p-color {
+	color: $myColor;
+}
+*/
+/*
+p {
+  padding: 10px;
+  margin: 10px;
+}
+
+.wrap-first p {
+  background: #F66;
+}
+
+.wrap-second p {
+  background: #66F;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+}
+*/
+.p-1 {
+  border: dotted 3px red;
+  background: rgba(255, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.p-2 {
+  border: dotted 3px #1faf35;
+  background: rgba(31, 175, 53, 0.3);
+  border-radius: 10px;
+}
+
+.p-3 {
+  border: dotted 3px blue;
+  background: rgba(0, 0, 255, 0.3);
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

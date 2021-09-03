@@ -1,0 +1,31 @@
+body {
+    background-color: gray;
+    color: red;
+}
+
+.grid {
+    max-width: 800px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 150px 300px 150px;
+    text-align: center;
+    place-items: center;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-column: 1 / 13; /* pode usar um dos dois */
+    background-color: blue;
+}
+
+main {
+    display: grid;
+    grid-column: 1 / 13;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    grid-column: 1 / 13;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*@media (min-width: 320px) and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1001px) {
+    body {
+        background-color: red;
+    }
+}
+}*/
+
+body {
+    background-color: whitesmoke;
+}
+
+.conteudo1 { /* CONFIGURAÇÕES DO GRID PAI */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* PARA CELULARES E TELAS MENORES */
+    .conteudo1 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+#sobre_nome1,
+#sobre_nome2,
+#sobre_nome3 { /* CONFIGURAÇÕES DO GRID ITEMS */
+    border:1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    place-items: center;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+/* Reseter, essa sequência de comandos anula completamente o comportamento padrão do navegador */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro"; /* fonte extraída do Google Fonts */
+}
+
+header {
+    background-color:#f3c024;
+    padding: 25px;
+    position: fixed; /* fixa a posição do elemento */
+    top: 0;
+    width: 100%; /* configuração para ocupar 100% da página */
+    z-index: 9; /* coloca a disposição do menu pra cima */
+}
+
+#menu {
+    margin-left: 35%;
+}
+
+header a {
+    text-decoration: none; /* tira o underline do link */
+    color: white;
+    text-transform: uppercase; /* transforma as letras minusculas em maiusculas */
+    font-size: 1.4em;
+    border:2px solid white; /* configuração da borda */
+    padding:10px;
+    margin: 5px;
+    text-align: center;
+}
+
+#banner {
+    width: 101%;
+    position: absolute;
+    top: 90px;
+}
+
+.conteudo {
+    position: relative;
+    top: 360px;
+    bottom: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+ol, h3, h4 {
+    text-align: left;
+    margin-left: 15%;
+    line-height: 2em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+#video{
+    display: block;
+    margin-left: auto; /* comando para centralizar o video */
+    margin-right: auto;
+}
+
+#whats {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    z-index: 9;
+}
+
+
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 101%;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    margin-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/*referencia: https://www.ibccoaching.com.br/portal/motivacao-pessoal/30-reflexoes-para-a-sua-vida-e-tempo-de-refletir/ */
